@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <title>Resolve Stack</title>
+</head>
+<body class="mx-4">
+ <!-- Navbar Scetion Start -->
+ 
+ <!-- <header class="text-gray-600 body-font -my-2">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <img src="./img/Logo copy.png" width="180px" >
+    </a>
+    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-gray-900" href="#" >Home</a>
+      <a class="mr-5 hover:text-gray-900" href="#service">Services</a>
+      <a class="mr-5 hover:text-gray-900" href="#career">Career</a>
+      <a class="mr-5 hover:text-gray-900" href="#about">About Us</a>
+      <a class="mr-5 hover:text-gray-900" href="#contact">Contact Us</a>
+    </nav>
+  </div>
+</header> -->
+
+<header class="bg-white">
+  <nav class="flex justify-between items-center w-[92%]  mx-auto">
+      <div>
+          <!-- <img class="w-16 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/5968/5968204.png" alt="..."> -->
+          <img src="./img/Logo copy.png" class="w-40" >
+      </div>
+      <div
+          class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+          <ul class="flex justify-items-end ml-20 md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+              <li>
+                  <a class="hover:text-gray-500" href="#">Home</a>
+              </li>
+              <li>
+                  <a class="hover:text-gray-500" href="#service">Services</a>
+              </li>
+              <li>
+                  <a class="hover:text-gray-500" href="#career">Career</a>
+              </li>
+              <li>
+                <a class="hover:text-gray-500" href="#contact">Contact Us</a> 
+              </li>
+              <li>
+                  
+                  <a class="hover:text-gray-500" href="#about">About Us</a>
+              </li>
+          </ul>
+      </div>
+      <div class="flex items-center gap-6">
+          <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+      </div>
+</header>
+
+ <!-- Navbar Section End -->
+
+ <!-- Hero Section Start -->
+ <section class="text-gray-600 body-font -my-16">
+  <div class="container mx-auto flex px-5 py-6 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center -my-7">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 my-14">Empowering Tomorrow Innovations in IT Solutions with <span class="text-red-700">Resolve Stack</span>
+      </h1>
+      <p class="mb-8 leading-relaxed">Resolve Stack is a cutting-edge IT company dedicated to providing innovative solutions that empower businesses to thrive in the digital age. Specializing in Web Development, App Development, Digital Marketing, and IT consulting, Resolve Stack leverages the latest technologies and industry best practices to deliver tailored solutions that meet the unique needs of each client.</p>
+      <div class="flex justify-center">
+        <button class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg"><a href="mailto:stackresolve4@gmail.com">Join Us</a></button>
+        <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
+      </div>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="./img/hero.png">
+    </div>
+  </div>
+</section>
+ <!-- Hero Section End -->
+
+ <!-- Service Section Start -->
+ <section class="text-gray-600 body-font my-14" id="service"> 
+  <div class="container px-5 py-4 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Our Services</h1>
+    </div>
+
+  <div class="container px-5 py-8 mx-auto">
+    <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+      <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
+       <img src="./img/web-development-svgrepo-com.svg" alt="">
+      </div>
+      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Web Development</h2>
+        <p class="leading-relaxed text-base">Web development involves creating websites or web applications using programming languages, frameworks, and technologies for online presence and functionality.</p>
+        <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    
+    <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">App Development</h2>
+        <p class="leading-relaxed text-base">App development is crafting software for mobile devices, encompassing design, coding, testing, and deployment for user-friendly applications.</p>
+        <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
+        <img src="./img/app-design-svgrepo-com.svg" alt="">
+      </div>
+    </div>
+
+    <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
+      <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 flex-shrink-0">
+        <img src="./img/digital-marketing-promotion-advertising-svgrepo-com.svg" alt="">
+      </div>
+      <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Digital Marketing</h2>
+        <p class="leading-relaxed text-base">Digital marketing is the promotion of products or services using digital channels like social media, email, SEO, and PPC.</p>
+        <a class="mt-3 text-blue-500 inline-flex items-center">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <!-- Service Section End -->
+  
+   <!-- Career Section Start -->
+ <section class="text-gray-600 body-font" id="career">
+  <div class="container px-5 py-4 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Internship</h1>
+    </div>
+
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+              <img src="./img/web-development-svgrepo-com.svg" alt="">
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Web Development</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">An internship in web development is a hands-on learning experience where students gain practical skills in website creation and coding.</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center" href="https://forms.gle/RJn91EccdMhgRP8x9" target="_blank">Enroll Now
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+              <img src="./img/app-design-svgrepo-com.svg" alt="">
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">App Development</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">An internship in app development provides hands-on experience in designing, coding, testing, and deploying mobile applications for real-world projects.</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center" href="https://forms.gle/RJn91EccdMhgRP8x9" target="_blank">Enroll Now
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
+              <img src="./img/digital-marketing-promotion-advertising-svgrepo-com.svg" alt="">
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Digital Marketing</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">Internship in digital marketing offers hands-on learning in SEO, content creation, social media management, analytics, and campaign execution.</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center" href="https://forms.gle/RJn91EccdMhgRP8x9" target="_blank">Enroll Now
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+              <img src="./img/graphics-graph-svgrepo-com.svg" alt="">
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Graphic Designing</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">Internship in graphic design provides practical experience in creating visual content, including logos, posters, and digital media, using design software.</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center" href="https://forms.gle/RJn91EccdMhgRP8x9" target="_blank">Enroll Now
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+              <img src="./img/java-svgrepo-com.svg" alt="">
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Java Development</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">An internship in Java development provides hands-on experience in coding, testing, and debugging Java applications for software development projects.</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center" href="https://forms.gle/RJn91EccdMhgRP8x9" target="_blank">Enroll Now
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="p-4 md:w-1/3">
+        <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+          <div class="flex items-center mb-3">
+            <div class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
+              <img src="./img/python-svgrepo-com.svg" alt="">
+            </div>
+            <h2 class="text-gray-900 text-lg title-font font-medium">Python Development</h2>
+          </div>
+          <div class="flex-grow">
+            <p class="leading-relaxed text-base">Internship in Python development involves gaining practical skills in coding, testing, and debugging Python applications for various software projects.</p>
+            <a class="mt-3 text-blue-500 inline-flex items-center" href="https://forms.gle/RJn91EccdMhgRP8x9" target="_blank">Enroll Now
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
+  <!-- Career Section End -->
+
+    <!-- About Us Section Start -->
+    <section class="text-gray-600 body-font" id="about">
+      <div class="flex flex-col text-center w-full my-8">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">About Us</h1>
+      </div>
+      <div class="container px-5 py-24 mx-auto -my-8">
+        <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed text-lg">Resolve Stack is a cutting-edge IT company dedicated to providing innovative solutions that empower businesses to thrive in the digital age. Specializing in software development, cloud computing, cybersecurity, and IT consulting, Resolve Stack leverages the latest technologies and industry best practices to deliver tailored solutions that meet the unique needs of each client. With a commitment to excellence and a passion for innovation, Resolve Stack is your trusted partner for navigating the complexities of modern IT landscapes and achieving sustainable growth.</p>
+          <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+        </div>
+      </div>
+    </section>
+   <!-- About Us Section End -->
+
+  <!-- Contact Section Start -->
+  <section class="text-gray-600 body-font relative" id="contact">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-12">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 -my-10">Contact Us</h1>
+        <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p> -->
+      </div>
+      <div class="lg:w-1/2 md:w-2/3 mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+              <input type="text" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+              <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <button class="flex mx-auto text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg"><a href="mailto:stackresolve4@gmail.com">Submit</a></button>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+  
+  <!-- Footer Section Start -->
+  <footer class="bg-gray-100">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="./img/Logo copy.png" width="150px" >
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Contact Us: <a href="mailto:stackresolve4@gmail.com">stackresolve4@gmail.com </a><br>© 2024
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500" href="https://www.instagram.com/resolve_stack/" target="_blank">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+  <script>
+    const navLinks = document.querySelector('.nav-links')
+    function onToggleMenu(e){
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        navLinks.classList.toggle('top-[14%]')
+    }
+</script>
+  
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
